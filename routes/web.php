@@ -27,3 +27,4 @@ Route::post('/posts/search', 'PostController@search')->name('posts.search');
 Route::resource('posts', 'PostController')->except(['index',]);
 Route::resource('/users', 'UserController');
 Route::resource('/comments', 'CommentController')->middleware('auth');
+// Route::
